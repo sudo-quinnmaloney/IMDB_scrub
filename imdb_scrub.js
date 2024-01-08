@@ -250,7 +250,7 @@ function toClipboard(text) {
     document.body.removeChild(copyFrom);
 
     alert("Copied to clipboard!");
-  }
+}
 
 // TODO: trace all clicked suggestions: Dinero(Blue Bloods)>Mathers(Rick & Morty)>Lamar
 // TODO: update suggestion set when search is submitted (should really be a connection set, which stores the person and the related project)
