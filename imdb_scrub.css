@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(44, 42, 39);
+    width: 32rem;
+}
+
+#contentDiv {
+    border-radius: 30px;
+    border: 1rem solid white;
+    margin-top: -1.5rem;
+    margin-left: -1.5rem;
+    width: 33rem;
+    height: 35rem;
+    position: fixed;
+}
+
+#searchDiv {
+    width: 15rem;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    position: fixed;
+}
+
+#resultsDiv {
+    width: 15rem;
+    margin-top: .5rem;
+    margin-left: 16rem;
+    display: inline-block;
+}
+
+#resultsKey {
+    color: #FFC300;
+}
+
+#results {
+    color: white;
+}
+
+#searchBar {
+    background-color: rgb(173, 160, 146);
+    padding: .25rem;
+    border: none;
+    border-radius: .75rem;
+    font-size: 17px;
+}
+
+#suggestionList {
+    list-style-type: None;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#copyButton {
+    width: 1rem;
+}
+
+#searchTrace {
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: rgb(173, 160, 146);
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background: #5350438f;
+    border-radius: 2px;
+}
+
+input::placeholder {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.9;
+}
+
+.suggestion, #searchTrace {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#FFC300;
+}
+
+.hoveredSuggestion {
+    color: white;
+}

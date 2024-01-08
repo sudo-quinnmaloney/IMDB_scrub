@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "IMDb Scrub",
+    "description": "Fetch industry connections for a given cast member",
+    "version": "1.0",
+    "action": {
+      "default_popup": "imdb_scrub.html",
+      "default_icon": "static/ext favicon.png"
+    },
+    "options_page": "options.html",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "clipboardWrite"
+    ]
+}
